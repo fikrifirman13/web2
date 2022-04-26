@@ -1,0 +1,56 @@
+/*untuk hider warna*/
+.main-nav{
+    background-color: #003566;
+}
+.main-nav .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 600;
+}
+.main-nav .navbar-nav .nav-link.active,.main-nav .navbar-nav .nav-link:hover{
+    color: #FFC300;
+}
+.navbar img.main-logo{
+    max-width: 150px;
+}
+/* untuk umum */
+.main-biru{
+    background-color: #003566;
+    color: #fff;
+}
+.main-biru h2 span{
+    color: #FFC300;
+
+}
+button.btn-warnig{
+    background-color: #FFC300;
+}
+
+h2.main-judul::after{
+    margin:auto;
+    margin-top:20px;
+    display:block;
+    border-bottom: 10px solid#FFC300;
+    width: 100px;
+    border-radius: 2px;
+    content: "";
+
+}
+.main-grey{
+    background-color: #f9f9f9;
+}
+.main-atas-judul{
+    color: #999;
+    font-size: 22px;
+    font-weight: 600;
+}
+/*untuk bagian kolaborasi*/
+#main-kolaborasi img{
+    max-height: 50px;
+    max-width: 150px;
+}
+#main-kolaborasi a {
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
